@@ -139,9 +139,14 @@ body{
 
 }
 .leftside-navbar{
-    
+    height: 100vh;
+    overflow-y: auto;
     margin: 10px;
     
+}
+.leftside-navbar::-webkit-scrollbar{
+    display: none;
+/* removing the scroll bar */
 }
 .main-content{
     border: 1px solid rgb(248, 161, 0);
@@ -239,4 +244,44 @@ body{
 .more3{
     font-size: 12px;
     color: #575757;
+}
+.main-content{
+    margin: 10px;
+}
+.sub-navbaritems1{
+    background-color: #ffffff;
+    border-radius: 1px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    
+}
+
+.sub-navbaritems1 p{
+    margin: 10px;
+    font-style: none;
+
+}    
+    
+   
+.sub-navbaritems p{
+    margin: 10px;
+    font-style: none;
+
+}
+.navbar-mainbody{
+    display: flex;
+}
+.main-content .navbar-mainbody {
+    width:100vw;
+    overflow-y: auto;
+
+   
+}
+.sub-navbaritems{
+    margin: 10px;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+}
+.sub-navbaritems a{
+    color: white;
 }
