@@ -130,3 +130,16 @@ body{
     height: 30px;
     width: 30px;
 }
+.main-mid-section-body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:15fr 80fr ;
+    
+
+}
+.leftside-navbar{
+    border: 1px solid white;
+}
+.main-content{
+    border: 1px solid rgb(248, 161, 0);
+}
