@@ -248,40 +248,120 @@ body{
 .main-content{
     margin: 10px;
 }
-.sub-navbaritems1{
-    background-color: #ffffff;
-    border-radius: 1px;
-    color: rgb(0, 0, 0);
-    margin: 10px;
-    
-}
-
-.sub-navbaritems1 p{
-    margin: 10px;
-    font-style: none;
-
-}    
-    
-   
-.sub-navbaritems p{
-    margin: 10px;
-    font-style: none;
-
-}
 .navbar-mainbody{
+    height: 56px;
     display: flex;
+    width: 80vw;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 0 20px;
 }
-.main-content .navbar-mainbody {
-    width:100vw;
-    overflow-y: auto;
+.navbar-mainbody::-webkit-scrollbar{
+    display: none;
+}
+.sub-navbaritems1{
+    font-size: 14px;
+    height: 32px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 12px;
+    border-radius: 8px;
+    margin:12px 12px 12px 0;
+    background-color: #ffffff;
 
-   
 }
+.sub-navbaritems1 a{
+    color: black;
+    background-color: transparent;
+    font-weight: 500;
+    width: 100%;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
 .sub-navbaritems{
-    margin: 10px;
-    background-color: #3b3b3b;
-    border-radius: 10px;
+    font-size: 14px;
+    height: 32px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 12px;
+    border-radius: 8px;
+    margin:12px 12px 12px 0;
+    background-color: #292929;
 }
 .sub-navbaritems a{
+    background-color: transparent;
+    font-weight: 500;
+    width: 100%;
+    white-space: nowrap;
+    text-decoration: none;
     color: white;
+}
+.sub-navbaritems:hover{
+    background-color: #575757 ;
+}
+.videosection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.aboutthumb{
+    display: flex;
+}
+.info1{
+    display: flex;
+}
+.thumb img{
+    border-radius: 10px;
+    width: 400px;
+    transition: all 0.3s;
+}
+.firstvideo{
+    margin: 10px;
+    cursor: pointer;
+}
+.aboutthumb >img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    cursor: pointer;
+}
+.info1 p{
+    color: #a9a9a9;
+    font-size: 15px;
+    padding: 4px;
+    cursor: pointer;
+
+}
+
+.info1 img{
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    cursor: pointer;
+}
+.font{
+    display: flex;
+  
+
+}
+.font p{
+    color: #a9a9a9;
+    font-size: 15px;
+    padding: 4px;
+    cursor: pointer;
+}
+.font p:nth-child(2){
+   padding-bottom: 4px;
+}
+.thumb img:hover{
+    transform: scale(1.02);
 }
