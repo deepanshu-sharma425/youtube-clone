@@ -365,3 +365,36 @@ body{
 .thumb img:hover{
     transform: scale(1.02);
 }
+.logoshorts{
+    display: flex;
+    margin: 10px;
+}
+.logoshorts img{
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
+}
+.logoshorts p{
+    font-size: 20px;
+    font-weight:600 ;
+}
+.shorts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.info4{display: flex;}
+.shorts1 >img{
+    border-radius: 10px;
+    height: 400px;
+   
+}
+.shorts{
+    margin: 10px;
+}
+.shortssection{
+    margin: 10px;
+
+}
+.shorts1{
+    padding: 10px;
+}
