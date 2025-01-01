@@ -6,6 +6,7 @@
         background-color: black;
         color: white;
         max-width: 480px;
+        overflow-x: hidden;
     }
     .arr img{
         width: 0px;
