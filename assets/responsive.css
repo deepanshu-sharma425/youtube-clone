@@ -1,0 +1,23 @@
+@media(max-width:480px){
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+    }
+    .arr img{
+        width: 0px;
+    }
+    .name-logo-location{
+        position: relative;
+        right:60px ;
+    }
+    .name-logo-location p:nth-child(3){
+        font-size: 0;
+    }
+    .search{
+        border:0 solid black;
+        
+
+    
+}
