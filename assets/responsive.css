@@ -1,4 +1,11 @@
-@media(max-width:480px){
+@media(max-width:450px){
+    html, body {
+        overflow-x: hidden;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
     body{
         margin: 0;
         padding: 0;
@@ -24,6 +31,8 @@
     .navbar-mainbody{
         border-top: 1px solid #646464;
         border-bottom: 1px solid #646464;
+        position: relative;
+        right: 5px;
         
         margin: 0;
     }
@@ -34,6 +43,7 @@
     .videosection{
         display: flex;
         flex-direction: column;
+        overflow: hidden;
         
     }
     .thumb img{
@@ -73,6 +83,24 @@
     .search img{
         width: 40px;
         height: 40px;
+    }
+    
+    .thumb img {
+        position: relative;
+        right: 20px;
+    }
+    .info1 img{
+        width: 0;
+    }
+    .threedot img{
+        position: relative;
+        right: 10px;
+    }
+    .font{
+        position: relative;
+        left: 70px;
+        bottom: 22.6px;
+
     }
 
 }
