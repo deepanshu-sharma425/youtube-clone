@@ -148,9 +148,7 @@ body{
     display: none;
 /* removing the scroll bar */
 }
-.main-content{
-    border: 1px solid rgb(248, 161, 0);
-}
+
 
 .lefthome{
     display: flex;

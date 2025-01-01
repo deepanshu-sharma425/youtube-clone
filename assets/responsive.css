@@ -5,6 +5,7 @@
         width: 100%;
         background-color: black;
         color: white;
+        max-width: 480px;
     }
     .arr img{
         width: 0px;
@@ -21,17 +22,56 @@
     }
     .navbar-mainbody{
         border-top: 1px solid #646464;
-        border-bottom: 1px solid #646464
+        border-bottom: 1px solid #646464;
+        
+        margin: 0;
     }
     .leftside-navbar{
         transform: scale(0);
     }
-    .main-mid-section-body {
-        display:;
-    }
+   
     .videosection{
         display: flex;
         flex-direction: column;
+        
+    }
+    .thumb img{
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .videosection{
+        margin: 0;
+        padding: 0;
+    }
+    .userimg img{
+        height: 0;
+        width: 0;
+    }
+    .setting img{
+        height: 0;
+        width: 0;
+    }
+    .voice img{
+        height: 0vh;
+        width: 0vw;
+        
+    }
+    .voice{
+        height: 0;
+        width: 0;
+    }
+    .searchlogo{
+        background-color: black;
+        border: none;
+        position: relative;
+        right: 490px;
+
+    }
+    .search img{
+        width: 40px;
+        height: 40px;
     }
 
 }
