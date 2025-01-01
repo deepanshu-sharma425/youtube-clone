@@ -14,14 +14,16 @@
         background-color: black;
         color: white;
         max-width: 480px;
-        overflow-x: hidden;
+        
     }
     .arr img{
         width: 0px;
     }
     .name-logo-location{
+        margin: 0;
+        
         position: relative;
-        right:60px ;
+        right:45px ;
     }
     .name-logo-location p:nth-child(3){
         font-size: 0;
