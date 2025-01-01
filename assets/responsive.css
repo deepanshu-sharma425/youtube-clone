@@ -2,6 +2,7 @@
     body{
         margin: 0;
         padding: 0;
+        width: 100%;
         background-color: black;
         color: white;
     }
@@ -16,8 +17,21 @@
         font-size: 0;
     }
     .search{
-        border:0 solid black;
-        
+      transform: scale(0);
+    }
+    .navbar-mainbody{
+        border-top: 1px solid #646464;
+        border-bottom: 1px solid #646464
+    }
+    .leftside-navbar{
+        transform: scale(0);
+    }
+    .main-mid-section-body {
+        display:;
+    }
+    .videosection{
+        display: flex;
+        flex-direction: column;
+    }
 
-    
 }
